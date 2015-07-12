@@ -10,7 +10,7 @@
 /*
  * Change this for the URL of your repository.
  */
-define('PRISMIC_URL', 'https://blogtemplate.cdn.prismic.io/api');
+define('PRISMIC_URL', 'https://testblogrbr.prismic.io/api');
 define('PRISMIC_TOKEN', null);
 
 /*

@@ -31,7 +31,6 @@
 </head>
 
 <body>
-
     <div id="right-panel">
 
         <?php get_sidebar(); ?>
@@ -39,6 +38,12 @@
     </div>
 
     <div class="main" <?= the_wio_attributes(); ?>>
+          <div id="loader"></div>
+
+    <div id="header">
+        <h2>Renaud Bressand</h2>
+        <h3>Designer at Zengularity</h3>
+    </div>
 
         <a id="menu-hamburger" href="#right-panel"></a>
 

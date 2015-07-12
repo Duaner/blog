@@ -1,5 +1,5 @@
 body {
-  color: #5D5F86;
+  background-color: #fff;
 }
 
 a {
@@ -20,6 +20,40 @@ a {
   text-align: left;
 }
 
+#loader{
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 700px;
+  left: 0;
+  height: 10px;
+  right: 0;
+  background: #212121;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+#header{
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+#header h2{
+  font-size: 15px;
+  font-weight: 800;
+  margin: 0;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+
+#header h3{
+  font-size: 16px;
+  margin: 0;
+  font-weight: 200;
+}
+
 h1, h2 {
   font-weight: bold;
 }
@@ -35,7 +69,8 @@ pre, ul {
 .container {
   max-width: 700px;
   margin: auto;
-  padding: 70px 26px 0 26px;
+  background: #fff;
+  padding: 70px 120px 0 120px;
 }
 
 .blog-main {
@@ -73,6 +108,7 @@ pre, ul {
   background: url(/assets/blank.png);
   background-color: #201145;
   background-size: cover;
+  background-position: center;
   color: #FFF;
 }
 
@@ -100,7 +136,7 @@ pre, ul {
 }
 
 .blog-header.author, .blog-header.category {
-  height: 50vh;
+  height: 90vh;
 }
 
 .blog-header.single, .blog-header.home {
@@ -251,6 +287,15 @@ pre, ul {
   margin-bottom: 60px;
 }
 
+.blog-post .categories{
+  font-size: 20px;
+  color: #A2A2A2;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 0.62px;
+}
+
 .previous-post, .next-post {
   text-decoration: underline;
   font-family: 'Lato', sans-serif;
@@ -263,18 +308,39 @@ pre, ul {
 
 .wio-link ~ .blog-post-title {
   padding-right: 30px;
-}
-
-.blog-post-title a, .blog-post-meta a {
-  font-family: 'Lato', sans-serif;
+  margin-top: 10px;
 }
 
 .blog-post-meta a {
-  color: #9494AF;
+  color: #505050;
+  font-family: 'PT Mono', Arial, sans-serif;
+}
+
+.blog-post-title{
+  padding-bottom: 30px;
+  border-bottom: solid 4px #212121;
 }
 
 .blog-post-title a {
   color: #2F3163;
+  letter-spacing: 1.56px;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+.blog-post .first_image{
+  width: 100%;
+  margin-top: 40px;
+}
+
+.blog-post-title .description{
+  color: #2F3163;
+  letter-spacing: 1.56px;
+  font-weight: 800;
+  color: #212121;
+  text-transform: uppercase;
+  font-size: 50px;
 }
 
 .blog-post-meta {

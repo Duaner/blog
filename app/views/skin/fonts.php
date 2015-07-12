@@ -11,6 +11,9 @@
 
 <?php else: ?>
 
-<link href='//fonts.googleapis.com/css?family=Lato:300,400,700|PT+Serif:400,400italic' rel='stylesheet' type='text/css'>
+<link href='//www.google.com/fonts#UsePlace:use/Collection:Open+Sans:400italic,700,300,800,400' type='text/css'>
+
+<link href='//www.google.com/fonts#UsePlace:use/Collection:PT+Mono' type='text/css'>
+
 
 <?php endif ?>

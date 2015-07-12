@@ -112,16 +112,6 @@ h6, .h6 {
   <?= $headerTextColor ? 'color:'.$headerTextColor->asText() : '' ?>;
 }
 
-.blog-post-title a, .blog-post-meta a {
-
-  <?= $titleFont ? 'font-family:'.$titleFont : '' ?>;
-}
-
-.blog-post-meta a {
-
-  <?= $metaTextColor ? 'color:'.$metaTextColor->asText() : '' ?>;
-}
-
 .blog-post-title a {
 
   <?= $titleColor ? 'color:'.$titleColor->asText() : '' ?>;
